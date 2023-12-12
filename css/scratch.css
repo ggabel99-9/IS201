@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+        background-color: #a8d5ba; /* Soft green color */
+    }
+    
+
+
+.container {
+    width: 80%;
+    margin:  auto;
+}
+
+.header {
+    background-color: #00796b;
+    color: rgb(247, 244, 244);
+    padding: 10px ;
+    text-align: center;
+}
+
+.nav{
+    margin: 20px ;
+    text-align: center;
+}
+
+.nava {
+    color: #004d40;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section{
+    margin-bottom: 20px;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
