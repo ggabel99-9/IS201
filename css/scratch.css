@@ -1,24 +1,29 @@
 body {
     font-family: Arial, sans-serif;
-        background-color: #a8d5ba; /* Soft green color */
-    }
-    
+    background-color: #a8d5ba; /* Soft green color */
+}
+
+header h1 {
+    font-family: 'Times New Roman', serif; /* Example: Changing to Times New Roman */
+    /* Add other font styles if needed, like font-size, color, etc. */
+}
 
 
 .container {
     width: 80%;
-    margin:  auto;
+    margin: auto;
 }
 
-.header {
+/* Changed from .header to header */
+header {
     background-color: #00796b;
     color: rgb(247, 244, 244);
-    padding: 10px ;
+    padding: 10px;
     text-align: center;
 }
 
-.nav{
-    margin: 20px ;
+.nav {
+    margin: 20px;
     text-align: center;
 }
 
@@ -28,7 +33,8 @@ body {
     font-weight: bold;
 }
 
-.section{
+/* Removed .section as it's not needed */
+section {
     margin-bottom: 20px;
 }
 
@@ -37,9 +43,13 @@ body {
     height: auto;
 }
 
-.footer {
+/* Changed from .footer to footer */
+footer {
     background-color: #004d40;
     color: white;
     text-align: center;
     padding: 10px 0;
 }
+
+
+
